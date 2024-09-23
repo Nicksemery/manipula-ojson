@@ -63,7 +63,7 @@ let aluno = {
   console.log(alunos);
   
   let alunosComMediaAlta = alunos.filter(aluno => {
-    let media = alunos.notas.reduce((acc, nota) => acc + nota, 0) / aluno.notas.length;
+    let media = aluno.notas.reduce((acc, nota) => acc + nota, 0) / aluno.notas.length;
     return media > 8;
   });
   
