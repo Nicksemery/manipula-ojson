@@ -2,13 +2,13 @@ let aluno = {
     nome: "Nicolas",
     idade: 21,
     curso: "Direito",
-    notas: [7.5, 8.0, 9.0]
+    notas: [7.0, 8.0, 9.0]
   };
   
   console.log(`Nome do aluno: ${aluno.nome}`);
   console.log(`Primeira nota: ${aluno.notas[0]}`);
   aluno.idade = 22;
-  aluno.notas.push(9.5);
+  aluno.notas.push(10.0);
   
   console.log(aluno);
 
@@ -27,9 +27,9 @@ let aluno = {
   console.log(`Média das notas: ${media.toFixed(2)}`);
   
   aluno.endereco = {
-    rua: "Rua das Flores",
-    cidade: "São Paulo",
-    estado: "SP"
+    rua: "Jardim Jericó",
+    cidade: "Cabedelo",
+    estado: "PB"
   };
   console.log(aluno);
   
@@ -48,15 +48,15 @@ let aluno = {
       nome: "Vladimir Datas",
       idade: 24,
       curso: "Ciência da Computação",
-      notas: [9.0, 9.5, 10.0],
+      notas: [9.0, 8.0, 10.0],
       endereco: { rua: "Jardim oceania", cidade: "João Pessoa", estado: "PB" }
     },
     {
-      nome: "Edriano Alemão",
+      nome: "Adriano Alemão",
       idade: 23,
       curso: "Engenharia de Software",
-      notas: [6.0, 7.5, 8.0],
-      endereco: { rua: "Rua das Palmeiras", cidade: "Belo Horizonte", estado: "MG" }
+      notas: [6.0, 7.0, 8.0],
+      endereco: { rua: "Rua das Palmeiras", cidade: "João Pessoa", estado: "PB" }
     }
   ];
   
